@@ -653,7 +653,9 @@
   line-height: 24px;
 }
 
-.pricing-card {}
+.pricing-card {
+  margin-bottom: 3rem;
+}
 
 .s-p-card .pricing-card-body-p {
   padding: 40px;
@@ -1064,6 +1066,7 @@
   padding: 100px 0px;
   border-radius: 10px;
   z-index: 1;
+  margin-top: 120px;
 }
 
 .form-bg-img {
