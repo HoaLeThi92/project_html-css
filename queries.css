@@ -1,0 +1,291 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+
+  .pricing-btn {
+    padding: 16px 65px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .ab-img-3 {
+    right: 0;
+  }
+  .container {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 944px) {
+  .container {
+    max-width: 910px;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    display: none;
+  }
+
+  .main-banner .container h1 {
+    margin-top: 0;
+  }
+
+  .main-banner .container .banner-image {
+    margin-top: 50px;
+  }
+
+  .discover-img .img-2 {
+    right: 150px;
+    top: 50px;
+  }
+
+  .discover-img .img-1 {
+    right: 125px;
+    top: 70px;
+  }
+
+  .pricing-btn {
+    padding: 16px 30px;
+  }
+
+  .section-p .container .row-blog {
+    grid-template-columns: 1fr;
+  }
+
+  .business {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .business-sec-content {
+    margin-top: 3rem;
+  }
+
+  .team-member-wr .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 704px) {
+  .container {
+    max-width: 670px;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  p,
+  a {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .main-banner {
+    padding: 180px 0 135px 0;
+  }
+
+  .main-banner .content {
+    width: 100%;
+  }
+
+  .main-banner .content p {
+    font-size: 14px;
+  }
+
+  .section-p .explore-section .row {
+    grid-template-columns: 1fr;
+  }
+
+  .row-card {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .counter-container .row {
+    gap: 20px;
+  }
+
+  .main-banner .content {
+    width: 100%;
+  }
+
+  .est-sec-p {
+    margin: 0;
+  }
+
+  .explore-part {
+    width: 100%;
+  }
+
+  .explore-text {
+    padding: 0;
+  }
+
+  .section-p .discover-section .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .section-p .container .row .content-7 {
+    padding: 0px 40px;
+  }
+
+  .discover-img .img-3 {
+    margin: 200px 0 30px -80px;
+    margin-bottom: 0;
+  }
+
+  .discover-img .img-2 {
+    right: 0;
+  }
+
+  .discover-img .img-1 {
+    right: -30px;
+    top: 100px;
+  }
+
+  .slick-slider .slick-center {
+    display: none;
+  }
+
+  /* ================================================ */
+  form div {
+    padding: 0 15px;
+  }
+
+  .input-form {
+    margin-bottom: 25px;
+  }
+
+  .input-form svg {
+    left: 30px;
+  }
+
+  /* ================================================ */
+
+  .blog-img-card .card-body .post-details .row {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-box .sidebar-tags {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+
+  /* ================================================ */
+  .container .social-in .row {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .message-form .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .message-form .dt-input {
+    max-width: 100%;
+  }
+
+  /* ================================================ */
+  .about-row, .team-member-wr .row, .rlt-post .blog-item-wrapper .row-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 544px) {
+  .container {
+    max-width: 440px;
+  }
+
+  .section-p .explore-section .row,
+  .counter-container .row,
+  .row-card,
+  .footer-row,
+  .footer-menu-row {
+    grid-template-columns: 1fr;
+  }
+
+  .section-p .container .row .content-7 {
+    padding: 0px 30px;
+  }
+
+  .discover-img .img-3 {
+    margin: 180px 0 30px -80px;
+    margin-bottom: 0;
+  }
+
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign-up-form button {
+    width: 120px;
+    height: 60px;
+    margin: auto;
+  }
+
+  .form-control {
+    max-width: 100%;
+  }
+
+  .explore-part-heading {
+    margin-top: 3rem;
+  }
+
+  .main-img {
+    gap: 1.5rem;
+  }
+
+  .video-section .video-poppup {
+    margin-top: -310px;
+  }
+
+  .social-plan-body .social-plan-heading p {
+    font-size: 14px;
+  }
+
+  .slick-slider .slick-slide {
+    display: none;
+  }
+
+  .slick-slider .slick-center {
+    display: block;
+    width: 100%;
+  }
+
+  /* =========================================================== */
+  .form-flex {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 0;
+  }
+
+  .subcriber-from-wr h2 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+}
